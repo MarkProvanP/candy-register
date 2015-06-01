@@ -27,11 +27,28 @@ body {
   flex: 0 1 40px;
 }
 
-.numpad-button {
+.keypad-button {
   height: 50px;
   width: 50px;
   border: 1px solid black;
   border-radius: 2px;
   text-align: center;
   background-color: grey;
+}
+
+.keypad-button:hover {
+  background-color: white;
+}
+
+#button-panel {
+  display: flex;
+}
+
+#display {
+  height: 240px;
+  width: 320px;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  padding: 10px 10px 10px 10px;
 }
