@@ -44,7 +44,7 @@ body {
   display: flex;
 }
 
-#display {
+#monitor {
   height: 240px;
   width: 320px;
   background-color: black;
